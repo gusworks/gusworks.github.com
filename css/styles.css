@@ -12,8 +12,12 @@
     vertical-align: middle;
   }
 
+  #header_logo a {
+    border: 0;
+  }
+
   #navigation {
-    background-color: #ccf;
+    background-color: #ccc;
     padding: 10px 0;
   }
 
@@ -21,14 +25,23 @@
     text-align: right
   }
 
+  .logo {
+ 		background: url('../img/g3070.png') no-repeat;
+    background-size: 100% 100%;
+    width: 220px;
+    height: 60px;
+    border: none;
+  }
+    
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
 
 @media handheld, only screen and (max-width: 767px) {
 
-	body {
-		
+  .logo {
+		background: url('g3070_2.png') no-repeat;
+		/* background-size: 212px 303px; */
 	}
 
 }
@@ -39,10 +52,10 @@
 /* ========================================== */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
-
+/*
   .logo {
-		/*background: url(logo2x.jpg) no-repeat;*/
+		background: url(logo2x.jpg) no-repeat;
 		background-size: 212px 303px;
 	}
-
+*/
 }
