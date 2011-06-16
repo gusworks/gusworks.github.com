@@ -12,8 +12,8 @@
     vertical-align: middle;
   }
 
-  #header_logo a {
-    border: 0;
+  #header_logo a, #header_logo img {
+    border-color: #333;
   }
 
   #navigation {
@@ -39,9 +39,19 @@
 
 @media handheld, only screen and (max-width: 767px) {
 
+  #header_logo .tencol {
+    text-align: center;
+  }
+
+}
+
+@media handheld, only screen and (max-width: 480px) {
+
   .logo {
-		background: url('g3070_2.png') no-repeat;
-		/* background-size: 212px 303px; */
+		background: url('../img/g3070_2.png') no-repeat;
+    width: 180px;
+    height: 49px;
+    /* background-size: 212px 303px; */
 	}
 
   #header_logo .tencol {
