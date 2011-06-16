@@ -45,7 +45,7 @@
 
 }
 
-@media handheld, only screen and (max-width: 480px) {
+@media handheld, only screen and (max-width: 400px) {
 
   .logo {
 		background: url('../img/g3070_2.png') no-repeat;
