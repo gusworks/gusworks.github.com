@@ -12,6 +12,19 @@
     vertical-align: middle;
   }
 
+  #header_logo .container, #header_logo .row, #header_logo .twocol {
+    vertical-align: middle;
+  }
+
+  #header_logo .twocol, #header_logo .fourcol {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #ccc;
+  }
+  #header_logo .twocol {
+    padding: 18px 0;
+  }
+
   #header_logo a, #header_logo img {
     border-color: #333;
   }
@@ -32,7 +45,7 @@
     height: 60px;
     border: none;
   }
-    
+
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
