@@ -27,7 +27,7 @@
 
   .logo {
  		background: url('../img/g3070.png') no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
     width: 220px;
     height: 60px;
     border: none;
@@ -54,10 +54,14 @@
     /* background-size: 212px 303px; */
 	}
 
+  #header_logo {
+    padding: 5px 0;
+  }
+/*
   #header_logo .tencol {
     text-align: center;
   }
-
+*/
 }
 
 
