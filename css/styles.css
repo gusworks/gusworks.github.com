@@ -44,6 +44,10 @@
 		/* background-size: 212px 303px; */
 	}
 
+  #header_logo .tencol {
+    text-align: center;
+  }
+
 }
 
 
