@@ -60,6 +60,10 @@
     background-color: #e7ffe7;
   }
 
+  #content {
+    width: 100%;
+  }
+
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
