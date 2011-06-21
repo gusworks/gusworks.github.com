@@ -3,12 +3,13 @@
 /* ============================== */
 
 	body {
-		
+		font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
 	}
 
   #header_logo {
     background-color: #333;
-    padding: 20px 0;
+    padding: 1.4em 0;
     vertical-align: middle;
   }
 
@@ -23,7 +24,7 @@
   }
 
   #header_logo .twocol {
-    padding: 18px 0;
+    padding: 1.4em 0;
   }
 
   #header_logo a, #header_logo img {
@@ -32,7 +33,7 @@
 
   #navigation {
     background-color: #ccc;
-    padding: 10px 0;
+    padding: 1em 0;
   }
 
   .right {
@@ -45,6 +46,18 @@
     width: 220px;
     height: 60px;
     border: none;
+  }
+
+  #banner {
+    display: block;
+    width: 100%;
+    background-color: #eee;
+    padding: 1em 0;
+  }
+
+  #banner .sixcol {
+    height: 300px;
+    background-color: #e7ffe7;
   }
 
 /* ============================= */
@@ -61,6 +74,10 @@
     padding: 1px 0;
     text-align: center;
   }
+
+  #banner {
+    display: none;
+  }
 }
 
 @media handheld, only screen and (max-width: 400px) {
@@ -75,6 +92,7 @@
   #header_logo {
     padding: 5px 0;
   }
+
 /*
   #header_logo .tencol {
     text-align: center;
